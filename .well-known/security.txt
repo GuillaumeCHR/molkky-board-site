@@ -1,0 +1,5 @@
+Contact: mailto:yogistudiofr@gmail.com
+Expires: 2027-10-29T00:00:00.000Z
+Preferred-Languages: fr, en
+Canonical: https://guillaumechr.github.io/molkky-board-site/.well-known/security.txt
+Policy: https://github.com/GuillaumeCHR/molkky-board/blob/main/SECURITY.md

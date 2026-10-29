@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'self'; img-src 'self'; base-uri 'none'; form-action 'none'">
+<meta name="referrer" content="no-referrer">
+<title>Politique de confidentialité – Molkky Board</title>
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<main>
+<header>
+  <a class="logo" href="./">Molkky <span>Board</span></a>
+  <nav><a href="conditions.html">Conditions</a><a href="../privacy.html" hreflang="en" lang="en">English</a></nav>
+</header>
+
+<h1>Politique de confidentialité</h1>
+<p class="muted">S'applique à l'application Android Molkky Board (<code>com.yogistudio.molkkyboard</code>), éditée par Yogi Studio.
+Dernière mise à jour : 29 octobre 2026.</p>
+
+<div class="card">
+  <strong>En bref :</strong> Molkky Board n'a ni compte, ni publicité, ni traceur, ni mesure d'audience.
+  Yogi Studio ne collecte aucune donnée sur vous : vos parties restent sur vos téléphones. Quand plusieurs téléphones
+  jouent ensemble, ils échangent directement entre eux sur le réseau local, en chiffré, sans passer par Internet ni par un serveur.
+</div>
+
+<h2>1. Responsable</h2>
+<p>Molkky Board est éditée par Yogi Studio, développeur indépendant établi en France.
+Contact : <a href="mailto:yogistudiofr@gmail.com">yogistudiofr@gmail.com</a>.</p>
+
+<h2>2. Données collectées par Yogi Studio</h2>
+<p><strong>Aucune.</strong> Yogi Studio n'exploite aucun serveur pour l'application et n'en reçoit aucune donnée : pas de compte,
+pas d'identifiant, pas de localisation, pas de contacts, pas de statistiques d'utilisation, pas d'identifiant publicitaire.
+L'application ne contient aucune bibliothèque de publicité, de mesure d'audience, d'attribution ni de rapport de plantage
+(vérifié automatiquement à chaque compilation avec la liste de traceurs d'Exodus Privacy).</p>
+
+<h2>3. Données enregistrées sur votre téléphone</h2>
+<p>Pour fonctionner, l'application enregistre uniquement sur votre téléphone :</p>
+<ul>
+  <li>les noms ou pseudos que vous saisissez pour les joueurs et les équipes, leurs couleurs et emblèmes ;</li>
+  <li>vos parties (chaque lancer), d'où sont recalculés scores, historique, statistiques, records et badges ;</li>
+  <li>une photo de joueur, seulement si vous en ajoutez une (prise avec l'appareil photo ou choisie dans la galerie ;
+      elle est réduite et réencodée, sans localisation ni autre métadonnée) ;</li>
+  <li>vos réglages (langue, mode de saisie, sons, annonces vocales…) ;</li>
+  <li>en cas de plantage, un rapport technique (version de l'app, version d'Android, modèle du téléphone, types d'erreurs ;
+      aucune donnée de partie ni identifiant), conservé jusqu'à ce que vous décidiez quoi en faire.</li>
+</ul>
+<p>Ces données sont exclues des sauvegardes Android dans le cloud et des transferts d'appareil. Vous pouvez tout supprimer
+à tout moment dans Réglages › Données › « Supprimer toutes mes données », ou en désinstallant l'application.</p>
+
+<h2>4. Jouer à plusieurs téléphones (« partie à côté »)</h2>
+<p>Quand l'organisateur partage une partie, les autres téléphones la rejoignent en scannant un QR code. Les téléphones
+échangent alors <strong>directement entre eux</strong>, sur le même Wi-Fi ou sur un point d'accès local créé par le
+téléphone de l'organisateur, sans connexion à Internet et sans serveur.</p>
+<ul>
+  <li><strong>Ce qui est échangé :</strong> le pseudo et l'emblème choisis sur chaque téléphone, les joueurs et équipes de la
+      partie (noms, couleurs, emblèmes) et les événements de jeu (lancers, corrections, changements de joueurs).
+      Les photos des joueurs ne sont <strong>jamais</strong> transmises. Aucun identifiant du téléphone n'est transmis.</li>
+  <li><strong>Sécurité :</strong> la connexion est chiffrée (TLS) et vérifiée grâce à une empreinte contenue dans le QR code ;
+      l'organisateur accepte chaque téléphone qui arrive et peut le déconnecter à tout moment.
+      L'invitation du QR code expire au bout de 2 minutes.</li>
+  <li><strong>Destinataires :</strong> uniquement les téléphones de la partie. Chacun garde une copie de la partie dans son historique.</li>
+</ul>
+<p>L'application déclare la permission Internet parce qu'Android l'exige pour toute connexion réseau, y compris sur le réseau
+local. L'application ne se connecte qu'aux téléphones de la partie, sur des adresses locales privées ; elle ne se connecte
+jamais à un serveur sur Internet.</p>
+
+<h2>5. Autorisations</h2>
+<ul>
+  <li><strong>Appareil photo</strong> (facultatif) : pour scanner le QR code de l'organisateur. Les photos de joueur ou de
+      vignette passent par l'appareil photo de votre téléphone ou par la galerie.</li>
+  <li><strong>Appareils à proximité / réseau local</strong> : pour créer le point d'accès local et relier les téléphones
+      d'une partie à plusieurs. Déclarée comme jamais utilisée pour déterminer la localisation.</li>
+  <li><strong>Notifications</strong> (facultatif) : pour afficher la partie en cours et, sur le téléphone de l'organisateur,
+      que le partage est actif.</li>
+  <li><strong>État du réseau et du Wi-Fi, service de premier plan</strong> : pour que la partie partagée reste joignable
+      quand l'écran de l'organisateur est éteint.</li>
+</ul>
+<p>L'application ne demande jamais votre localisation, vos contacts, le micro ni vos fichiers. Vous pouvez refuser toute
+autorisation : l'application continue de fonctionner sur un seul téléphone.</p>
+
+<h2>6. Ce que vous choisissez d'envoyer</h2>
+<ul>
+  <li><strong>Partage d'un moment :</strong> images, vidéos ou GIF sont créés sur votre téléphone et envoyés uniquement à
+      l'application que vous choisissez dans la feuille de partage d'Android. Ils ne contiennent que ce qui y est affiché,
+      sans métadonnées.</li>
+  <li><strong>Fichier de sauvegarde :</strong> créé seulement à votre demande, enregistré où vous le choisissez.</li>
+  <li><strong>Rapport de plantage ou retour :</strong> envoyé seulement si vous le décidez, par e-mail depuis votre propre
+      messagerie, après en avoir vu tout le contenu.</li>
+  <li><strong>Annonces vocales</strong> (désactivées par défaut) : le texte à lire est confié au moteur de synthèse vocale
+      installé sur votre téléphone.</li>
+</ul>
+
+<h2>7. Google Play</h2>
+<p>L'application est distribuée par Google Play. Google peut traiter des données sur les installations et la stabilité de
+l'application selon sa propre politique de confidentialité
+(<a href="https://policies.google.com/privacy?hl=fr">policies.google.com/privacy</a>). Yogi Studio ne voit que les
+statistiques agrégées fournies par la Play Console.</p>
+
+<h2>8. Enfants</h2>
+<p>Molkky Board s'adresse aux adolescents et aux adultes (13 ans et plus) et ne cible pas les enfants.</p>
+
+<h2>9. Vos droits</h2>
+<p>Yogi Studio ne détenant aucune donnée sur vous, vos données restent sous votre contrôle sur votre téléphone : vous
+pouvez les consulter, les exporter (Réglages › Données › « Sauvegarder mes données ») et les supprimer à tout moment.
+Pour toute question : <a href="mailto:yogistudiofr@gmail.com">yogistudiofr@gmail.com</a>. Vous pouvez aussi adresser
+une réclamation à la CNIL (<a href="https://www.cnil.fr">cnil.fr</a>).</p>
+
+<h2>10. Modifications</h2>
+<p>Si l'application traite un jour les données autrement (par exemple avec des comptes facultatifs dans une version future),
+cette politique sera mise à jour avant la sortie de cette version, et la date ci-dessus changera.</p>
+
+<footer>Molkky Board · Yogi Studio · <a href="mailto:yogistudiofr@gmail.com">yogistudiofr@gmail.com</a><br>
+Mölkky® est une marque de Tactic Games Oy. Molkky Board est une application indépendante, ni affiliée ni approuvée par Tactic Games.</footer>
+</main>
+</body>
+</html>
